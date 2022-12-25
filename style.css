@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root{
+    --orange:#ff7800;
+    --lightcolor:#666;
+    --black:#130f40;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .2s;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.background-image{
+    background: url(images/Replace\ your\ Image.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inner-text-background{
+    text-align: center;
+}
+.inner-text-background h2{
+    color: white;
+    font-size: 30px;
+}
+.inner-text-background h1{
+    color: var(--orange);
+    font-size: 50px;
+}
+.inner-text-background h3{
+    color: white;
+    font-size: 30px;
+}
+.what-we-do{
+    padding: 8rem 9%;
+    background: var(--orange);
+}
+
+.main-we-do{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.inner-we-do{
+    flex: 1 1 45rem;
+}
+.inner-we-do img{
+    width: 40%;
+    
+}
+.we-do-image{
+    text-align: center;
+}
+.inner-we-do h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:var(--black);
+    font-size: 40px;
+}
+.inner-we-do p{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    margin-bottom: 25px;
+}
+.inner-we-do a{
+    font-weight: bold;
+    padding: 2rem 4rem;
+    background: var(--black);
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+/* Our Designer */
+
+.designer{
+    padding: 3rem 7%;
+}
+.designer h1{
+    color: var(--black);
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.designer h1 span{
+    color: var(--orange);
+}
+.designer img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+/* Our Service */
+.our-servies{
+    padding: 3rem 7%;
+}
+.our-servies h1{
+    color: var(--black);
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.our-servies h1 span{
+    color: var(--orange);
+}
+.main-services{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.inner-services{
+    flex: 1 1 300px;
+    padding: 2rem 3rem;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+ 
+}
+.inner-services:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+ 
+}
+.inner-services .service-icons{
+    width: 50px;
+    height: 50px;
+    background: var(--black);
+    line-height: 50px;
+    text-align: center;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.inner-services .service-icons i{
+    color: white;
+    font-size: 1.5rem;
+
+}
+.inner-services p{
+    padding: 0 2rem;
+    font-size: 1.5rem;
+}
+.gallery{
+    padding: 3rem 7%;
+
+}
+.gallery h1{
+    font-size: 40px;
+    text-align: center;
+    color: var(--black);
+    margin-bottom: 25px;
+}
+.gallery h1 span{
+    color: var(--orange);
+}
+.main-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.inner-gallery{
+    flex: 1 1 300px;
+ 
+}
+.inner-gallery img{
+    width: 100%;
+}
+.inner-gallery img:hover{
+    transform: scale(1.1);
+}
+.our-prices{
+    padding: 4rem 7%;
+}
+.our-prices h1{
+    color: var(--black);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.our-prices h1 span{
+    color: var(--orange);
+}
+.main-prices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.inner-prices{
+    flex-basis: 40%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 3rem 2rem;
+}
+.price-heading{
+    padding: 3rem;
+    background: var(--black);
+    text-align: center;
+}
+.price-heading h2{
+    color: white;
+    font-size: 2rem;
+}
+.price-heading p{
+    color: white;
+    font-size: 1.5rem;
+}
+.price-text p{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: var(--black);
+}
+.inner-prices .inner-price-heading h2{
+    color: var(--black);
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+.inner-prices .inner-price-heading h2 span{
+    font-size: 4rem;
+}
+.inner-prices a{
+    padding: 2rem 4rem;
+    font-size: 1.5rem;
+    color: white;
+    background: var(--black);
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.our-clients{
+    padding: 3rem 7%;
+}
+.our-clients h1{
+    color: var(--black);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.our-clients h1 span{
+    color: var(--orange);
+}
+
+.main-client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.inner-client{
+    flex-basis: 20%;
+    text-align: center;
+}
+.inner-client img{
+width: 50%;
+}
+
+
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #08012e;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+@media (max-width:768px) {
+    html{
+        font-size: 55%;
+    }
+    .inner-prices{
+        flex-basis: 100%;
+    }
+    .inner-we-do img{
+        width: 50%;
+        margin-top: 50px;
+        
+    }
+    .we-do-image{
+        text-align: center;
+    }
+}
+
+.navbar{
+    background-color: #ff7800;
+}
+.navbar a:hover{
+    background-color: #08012e;
+    border-radius: 8px;
+}
+
+#service{
+    padding-top: 100px;
+}
+#project{
+    padding-top: 100px;
+}
+#price{
+    padding-top: 100px;
+}
+#clien{
+    padding-top: 100px;
+}
+#footer{
+    padding-top: 100px;
+}
+#home{
+    padding-top: 100px;
+}
+#designer{
+    padding-top: 100px;
+}
